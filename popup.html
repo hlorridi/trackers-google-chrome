@@ -1,0 +1,52 @@
+
+<html>
+<head>
+<style>
+body {
+  min-width:200px;
+}
+.headers .title{
+font-size:16px;
+position:relative;
+top:-8px;
+}
+.headers .beta{
+font-size:12px;
+position:relative;
+top:-8px;
+font-style:italic;
+color:#ff0000;
+}
+#track_list {
+margin:5px 0;
+padding:0
+}
+#track_list li {
+list-style:none;
+margin:0;
+padding:0;
+}
+.content{
+margin:5px 
+}
+.footers {
+  text-decoration:italic;
+  color:#AFAFAF;
+  font-size:0.7em;
+  text-align:center;
+}
+</style>
+<script src="popup.js"></script>
+</head>
+<body>
+<div class="headers">
+<img src="icon.png" height="32" width="32" alt="Trackers Tracked"/>
+<span class="title">Trackers Tracked </span><span class="beta">beta</span>
+</div>
+<div class="content">
+  <span id="counter"></span>
+  <ul id="track_list"></ul>
+</div>
+<div class="footers">powered by <a href="http://www.ingenki.com" target="_blank">ingenki</a></div>
+  </body>
+</html>

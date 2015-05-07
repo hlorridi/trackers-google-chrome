@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trackers Tracked",
+  "description": "List who's tracking you",
+  "version": "0.9.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title" : "List who's tracking you on this page"
+  },
+  "permissions": [
+    "webRequest",
+    "cookies",
+    "storage",
+    "tabs",
+    "*://*/*"
+  ]
+}
