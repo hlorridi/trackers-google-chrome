@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Trackers Tracked",
-  "description": "List who's tracking you (https://github.com/ingenki/trackers-google-chrome/)",
+  "name": "Trackers Tracked (alpha)",
+  "description": "List who's tracking you",
   "version": "0.9.1",
   "background": {
     "scripts": [
