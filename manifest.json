@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Trackers Tracked (alpha)",
-  "description": "List who's tracking you",
-  "version": "0.9.1",
+  "description": "Liste les sociétés qui vous collectent des informations sur vous",
+  "version": "0.9.1.1",
   "background": {
     "scripts": [
       "functions.js",
@@ -17,7 +17,7 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title" : "List who's tracking you on this page"
+    "default_title" : "Liste des sociétés qui collectent des informations sur vous via cette page web"
   },
   "content_scripts": [
     {
